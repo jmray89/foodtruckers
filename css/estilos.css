@@ -1,0 +1,53 @@
+*{
+  margin: auto;
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 100%;
+  margin: auto;
+}
+
+.contenedor_principal{
+  position: absolute;
+  background-color: white;
+}
+
+header{
+  border: 1px black dotted;
+  position: fixed;
+  width: 100%;
+}
+
+
+nav{
+  position: absolute;
+  display: block;
+  top: 50%;
+  margin: auto;
+  width: 90%;
+  left: 10%;
+}
+
+
+.header_li {
+  display: block;
+  padding: 0 10px;
+  list-style: none;
+  float: left;
+}
+
+.sesion_li{
+  padding: 0 50px;
+  list-style: none;
+  float: right;
+}
+
+img{
+  float: left;
+  padding: 20px;
+}
+
+nav ul li a{
+  display: block;
+}
