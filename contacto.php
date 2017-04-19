@@ -2,37 +2,37 @@
 
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <meta name="viewport" content="width=device-width,initial-scale=1">
-   
+
     <title>Contacto - Foodtruckers</title>
 
 
     <head>
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" data-minify="1" />
-    
+
     <script src="js/query.js"></script>
     <script src="js/utils.js"></script>
-       
+
     </head>
     <body>
-   
+
    <nav class="navbar navbar-default navbar-fixed-top">
    <div class="container">
    <div class="navbar-header">
-   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> 
+   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
     <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-    <a class="navbar-brand" href="index.html"> <img src="images/logo-foodtruckers.png" alt="Foodtruckers" class="logo" /></a>
+    <a class="navbar-brand" href="index.php"> <img src="images/logo-foodtruckers.png" alt="Foodtruckers" class="logo" /></a>
     </div>
     <div id="bs-navbar-collapse" class="collapse navbar-collapse">
     <ul class="nav navbar-nav navbar-right">
-    <li><a href="index.html">Inicio</a></li>
-    <li><a href="index.html">Nosotros</a></li>
-    <li><a href="index.html">Eventos</a></li>
-    <li><a href="index.html">Foodtruckers</a></li>
-    <li><a href="index.html">Proovedores</a></li>
-    <li><a href="contacto.html">Contacto</a></li>
-    <li><a href="index.html">&vert; Login &vert;</a></li>
-    <li class="hidden-sm hidden-xs btn button_primary button_contact menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="login.html">Asociate</a></li>
+    <li><a href="index.php">Inicio</a></li>
+    <li><a href="index.php">Nosotros</a></li>
+    <li><a href="index.php">Eventos</a></li>
+    <li><a href="index.php">Foodtruckers</a></li>
+    <li><a href="index.php">Proovedores</a></li>
+    <li><a href="contacto.php">Contacto</a></li>
+    <li><a href="index.php">&vert; Login &vert;</a></li>
+    <li class="hidden-sm hidden-xs btn button_primary button_contact menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="login.php">Asociate</a></li>
                 </ul>
             </div>
         </div>
@@ -43,7 +43,7 @@
           <h1>Contactate con nosotros</h1></div>
         <div id="gradient2">&nbsp;</div>
     </header>
-    
+
     <section id="main" role="main">
       <div class="container">
       <div class="row">
@@ -51,17 +51,17 @@
       <p class="label-projet">SIEMPRE...</p>
       <h1>Un Foodtruckers muy cerca de usted</h1></div>
        </div>
-        
+
         <div class="row" style="">
-        <div class="col-md-3 col-md-offset-1"> 
+        <div class="col-md-3 col-md-offset-1">
         <div class="textwidget">
         <ul class="list-unstyled" id="infos">
         <li></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, nam elementum mi eget maximus elementum<br><br>Cras eu massa ut velit tristique pretium.<br>Proin maximus turpis vel tortor venenatis, at efficitur elit malesuada.</li>
-        
+
         </ul>
         </div>
         </div>
-        
+
         <div class="col-md-7">
         <div class="screen-reader-response"></div>
         <form action="/pagina-formulario" method="post">
@@ -78,7 +78,7 @@
         <textarea id="msg"></textarea>
         </div>
         <div class="buttons">
-        <p class="buttons"> <a href="index.html" class="btn button_primary">ENVIAR</a></p>
+        <p class="buttons"> <a href="index.php" class="btn button_primary">ENVIAR</a></p>
         </div>
         </form>
                     </div>
@@ -86,13 +86,13 @@
             </div>
         </div>
     </section>
- 
-   
-    
+
+
+
    <footer class="negativeMargin">
         <div class="container">
             <div class="row">
-                <div class="col-md-6"> <img src="images/logo-foodtruckers-footer.png" alt="Foodtruckers" class="logo" /> 
+                <div class="col-md-6"> <img src="images/logo-foodtruckers-footer.png" alt="Foodtruckers" class="logo" />
                     <div class="textwidget">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at finibus dui, ut luctus mi. Aenean bibendum odio semper turpis malesuada, sed laoreet urna rhoncus.</p>
                     </div>
@@ -102,7 +102,7 @@
     <div class="menu-activites-container">
     <ul class="list-unstyled">
     <li><a href="#">Empresa</a></li>
-    <li><a href="preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+    <li><a href="preguntas-frecuentes.php">Preguntas frecuentes</a></li>
     <li><a href="#">Contacto</a></li>
                                 </ul>
                             </div>
@@ -113,8 +113,8 @@
     <ul class="list-unstyled">
     <li><a href="#">Informacion legal</a></li>
     <li><a href="#">Términos y condiciones </a></li>
-    
-   
+
+
                                 </ul>
                             </div>
                         </div>
@@ -130,10 +130,10 @@
                         </div>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     </footer>
-   
+
 </body>
 </html>
