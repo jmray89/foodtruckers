@@ -52,22 +52,34 @@ if ($_POST) {
        <form class="form-reg" action="registracion.php" method="post">
 
          <label for="nombre">Nombre</label><br>
-         <input type="text" name="nombre" value="<?=$nombre?>"><br><br>
+         <input type="text" name="nombre" value="<?=$nombre?>"><?php if (isset($errores["nombre"])) {
+           echo $errores["nombre"];
+         } ?><br><br>
 
          <label for="apellido">Apellido</label><br>
-         <input type="text" name="apellido" value="<?=$apellido?>"><br><br>
+         <input type="text" name="apellido" value="<?=$apellido?>"><?php if (isset($errores["apellido"])) {
+           echo $errores["apellido"];
+         } ?><br><br>
 
          <label for="mail">E-mail</label><br>
-         <input type="mail" name="mail" value="<?=$mail?>"><br><br>
+         <input type="mail" name="mail" value="<?=$mail?>"><?php if (isset($errores["mail"])) {
+           echo $errores["mail"];
+         } ?><br><br>
 
          <label for="username">Nombre de Usuario</label><br>
-         <input type="text" name="username" value="<?=$username?>"><br><br>
+         <input type="text" name="username" value="<?=$username?>"><?php if (isset($errores["username"])) {
+           echo $errores["username"];
+         } ?><br><br>
 
          <label for="password">Contraseña</label><br>
-         <input type="password" name="password" value=""><br><br>
+         <input type="password" name="password" value=""><?php if (isset($errores["password"])) {
+           echo $errores["password"];
+         } ?><br><br>
 
          <label for="pass-repeat">Confirmar contraseña</label><br>
-         <input type="password" name="passRepeat" value=""><br><br>
+         <input type="password" name="passRepeat" value=""><?php if (isset($errores["passRepeat"])) {
+           echo $errores["passRepeat"];
+         } ?><br><br>
 
          <input type="submit" name="submit" value="Enviar">
 

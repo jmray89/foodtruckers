@@ -9,6 +9,11 @@ session_start();
      $errores["nombre"] = "No llenaste tu nombre.";
    }elseif (strlen($_POST["nombre"]) == 1){
      $errores["nombre"] = "Tu nombre no puede estar compuesto por solo una letra.";
+   }   
+   if (strlen($_POST["apellido"]) == 0) {
+     $errores["apellido"] = "No llenaste tu apellido.";
+   }elseif (strlen($_POST["apellido"]) == 1){
+     $errores["apellido"] = "Tu apellido no puede estar compuesto por solo una letra.";
    }
    if (strlen($_POST["mail"]) == 0) {
      $errores["mail"] = "No llenaste tu mail.";
