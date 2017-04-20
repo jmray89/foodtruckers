@@ -2,24 +2,24 @@
 
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <meta name="viewport" content="width=device-width,initial-scale=1">
-   
+
     <title>Foodtruckers</title>
 
 
     <head>
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" data-minify="1" />
-    
+
     <script src="js/query.js"></script>
     <script src="js/utils.js"></script>
-       
+
     </head>
     <body>
-   
+
   <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
   <div class="navbar-header">
-  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> 
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
   <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
   <a class="navbar-brand" href="index.php"> <img src="images/logo-foodtruckers.png" alt="Foodtruckers" class="logo" /></a>
     </div>
@@ -31,27 +31,27 @@
     <li><a href="index.php">Foodtruckers</a></li>
     <li><a href="index.php">Proovedores</a></li>
     <li><a href="contacto.php">Contacto</a></li>
-    <li><a href="index.php">&vert; Login &vert;</a></li>
+    <li><a href="login/login.php">&vert; Login &vert;</a></li>
     <li class="hidden-sm hidden-xs btn button_primary button_contact menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="login.php">Asociate</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    
-    
+
+
     <header data-parallax="scroll" data-image-src="images/foto-home-foodtruckers.jpg">
      <div id="slogan">
       <p class="soustitre">Dejate Llevar</p>
        <h1>Foodtruckers</h1> <p class="buttons"> <a href="index.php" class="btn button_primary">Asociate</a></p></div>
     </header>
-   
+
         <section role="main">
         <div class="container">
            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             </div>
         </div>
     </section>
- 
+
     <section id="evento-home">
        <div class="container">
             <div class="row table-row">
@@ -68,13 +68,13 @@
             </div>
         </div>
     </section>
-    
-    
-    
+
+
+
     <footer class="negativeMargin">
         <div class="container">
             <div class="row">
-                <div class="col-md-6"> <img src="images/logo-foodtruckers-footer.png" alt="Foodtruckers" class="logo" /> 
+                <div class="col-md-6"> <img src="images/logo-foodtruckers-footer.png" alt="Foodtruckers" class="logo" />
                     <div class="textwidget">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at finibus dui, ut luctus mi. Aenean bibendum odio semper turpis malesuada, sed laoreet urna rhoncus.</p>
                     </div>
@@ -95,8 +95,8 @@
     <ul class="list-unstyled">
     <li><a href="#">Informacion legal</a></li>
     <li><a href="#">Términos y condiciones </a></li>
-    
-   
+
+
                                 </ul>
                             </div>
                         </div>
@@ -115,7 +115,7 @@
               </div>
         </div>
     </footer>
-   
+
 </body>
 
 
