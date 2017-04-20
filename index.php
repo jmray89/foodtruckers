@@ -5,7 +5,6 @@
 
     <title>Foodtruckers</title>
 
-
     <head>
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" data-minify="1" />
@@ -32,7 +31,7 @@
     <li><a href="index.php">Proovedores</a></li>
     <li><a href="contacto.php">Contacto</a></li>
     <li><a href="login/login.php">&vert; Login &vert;</a></li>
-    <li class="hidden-sm hidden-xs btn button_primary button_contact menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="login.php">Asociate</a></li>
+    <li class="hidden-sm hidden-xs btn button_primary button_contact menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="registracion/registracion.php">Asociate</a></li>
                 </ul>
             </div>
         </div>
@@ -68,8 +67,6 @@
             </div>
         </div>
     </section>
-
-
 
     <footer class="negativeMargin">
         <div class="container">
